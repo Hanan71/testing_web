@@ -1,0 +1,88 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url(pexels-photoscom-93405.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:  0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    background-color: #3498db;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.search-box {
+        width: 200px;
+        height: 23px;
+        border-radius: 20px; 
+        border: 1px solid #ccc;
+        padding: 1px 15px;
+        font-size: 16px;
+        outline: none;
+    }
+    .search-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 20px; 
+        padding: 8px px;
+        margin-left: -40px; 
+        cursor: pointer;
+    }
+
+.about,
+.services,
+.contact {
+    margin-top: 30px;
+}
+
+
+footer {
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding:  10px 0;
+   
+}
